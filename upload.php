@@ -8,7 +8,7 @@ $diretorio = 'imagens/';
 $ul = new UploadImages($_FILES["foto"]);
 
 /*
-Chama metodo para upload passando um nome para o arquivo, diretório em que será salvo, largura máxima aceita, altura máxima aceita e tamanho máximo aceito.
+Chama metodo para upload passando um nome para o arquivo, diretorio em que sera salvo, largura maxima aceita, altura maxima aceita e tamanho maximo aceito.
 */
 $retorno = $ul->upload("arquivo.jpg", $diretorio, 629, 229, (1024*1024)); 
 
